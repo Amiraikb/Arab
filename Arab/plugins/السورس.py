@@ -125,7 +125,7 @@ fahs = """‎⿻┊My 𖠄 {my_mention} ٫
 ‌‎⿻┊UpTimE 𖠄 {uptime} ٫
 ‌‎⿻┊‌‎PinG 𖠄 {ping} ٫
 ‌‎⿻┊‌‎VeRsIoN 𖠄 (7.7) ,
-‌‎⿻┊‌‎TeLeThoN AraB 𖠄 @IQTHON"""
+‌‎⿻┊‌‎TeLeThoN AraB 𖠄 @JIBTHON"""
 
 @iqthon.on(admin_cmd(pattern="رابط التنصيب(?: |$)(.*)"))    
 async def source(e):
