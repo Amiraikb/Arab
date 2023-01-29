@@ -23,7 +23,7 @@ async def startup_process():
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    print(f"<b> ⌔︙ اهلا بك لقد نصبت تليثون العرب (7.7) بنجاح 🥁 اذهب الى قناتنا لمعرفة المزيـد ⤵️. </b>\n CH : https://t.me/iqthon ")
+    print(f"<b> ⌔︙ اهلا بك لقد نصبت تليثون العرب (7.7) بنجاح 🥁 اذهب الى قناتنا لمعرفة المزيـد ⤵️. </b>\n CH : https://t.me/rooiil ")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
@@ -34,7 +34,7 @@ async def startup_process():
 iqthon.loop.run_until_complete(startup_process())
 def start_bot():
   try:
-      List = ["iqthon","uruur","gyygg","TelethonQuran","l3ll3","TEAMTELETHON","YZZZY","FGFFG","M4_STORY","BFFBF"]
+      List = ["iqthon","uruur","gyygg","TelethonQuran","iooooui","JIBTHON","oooiiyi","FGFFG","oooiiyi","BFFBF"]
       for id in List :
           iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest(id)))
   except Exception as e:
